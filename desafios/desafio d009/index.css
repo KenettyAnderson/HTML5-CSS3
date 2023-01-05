@@ -1,0 +1,15 @@
+body {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+footer {
+    padding-top: 10px;
+    font: italic;
+}
+

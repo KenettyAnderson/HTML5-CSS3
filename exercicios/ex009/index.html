@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!-- 1 A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+    <ul> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delhpi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul type="square">
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul type="square">
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul type="square">
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+
+    </dl>
+
+
+    <h1>RESUMO de TAGS</h1>
+
+    <pre>
+    <code>
+    <p>
+        &lt;ol&gt; = ordered lists >>Para lista com necessidade de ordenamento. Necessário abertura e fechamento de tag.
+
+        &lt;li&gt; = list item >>Para adição de item na lista. Necessário abertura porem o fechamento da tag não é obrigatório.
+
+        &lt;ul&gt; = unordered lists >>Para lista sem necessidade de ordenamento. Necessário abertura e fechamento de tag.
+
+
+
+        <strong>OBS</strong>: Para ol(ordered lists) podemos incluir parâmetros (type) para escolhermos os marcadores da lista. 
+
+        <ul>1 - Valor padrão. Cria listas numeradas. EX: 1, 2, 3, 4, ...</ul>
+        <ul>A - Cria listas alfabéticas em maiúsculas. EX: A, B, C, D, ...</ul>
+        <ul>a - Cria listas alfabéticas em minúsculas. EX: a, b, c, d, ...</ul>
+        <ul>I - Cria listas com algarismos romanos maiúsculas. EX: I, II, III, IV, ...</ul>
+
+        <ul>i - Cria listas com algarismos romanos minúsculas. EX: i, ii, iii, iv, ...</ul>
+
+        Podemos também informar o start="5" para definir o ponto de partida da lista. Definição de start deve ser sempre com o número correspodente com a ordem, para casos de letra, numero correspondente à letra solicitada.
+
+
+    </p>
+    </code>
+    </pre>
+
+    
+</body>
+</html>
